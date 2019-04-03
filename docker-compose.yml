@@ -1,0 +1,48 @@
+version: '3.3'
+
+
+secrets:
+ secrets:
+  file: secrets.txt
+
+services:
+
+ etl-client:
+  build: etl-client
+  environment:
+    SECRETS: /run/secrets/secrets
+  secrets:
+    - secrets
+  ports:
+   - 127.0.0.1:7000:5000
+  volumes:
+   - ./etl-client/data:/etl-workdir/data/
+   - ./etl-client/config:/etl-workdir/config/
+
+ db-dict:
+  image: postgres
+  restart: "no"
+  environment:
+   POSTGRES_USER: dict_dbGap
+   POSTGRES_PASSWORD: password
+  ports:
+   - 127.0.0.1:5432:5432
+
+ # pgadmin:
+ #  image: thajeztah/pgadmin4
+ #  restart: "no"
+ #  ports:
+ #   - 127.0.0.1:5050:5050
+ #  networks:
+ #   - quickstart_public
+
+ # adminer:
+ #  image: adminer
+ #  restart: "no"
+ #  ports:
+ #   - 127.0.0.1:8081:8080
+ # transmartdb:
+ #   build: ./transmartdb
+ #   restart: "no"
+ #   networks:
+ #    - quickstart_public
