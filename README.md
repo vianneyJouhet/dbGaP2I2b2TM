@@ -47,7 +47,11 @@ sh scripts/download-dbgap-files.sh /elt-workdir/data/<tatgetDir> <krt_filename> 
 ```
 
 ## dbGap files curation
+This step will read all dbgap files and build the appropriate files for the [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-EntityGenerator)
 
 ### Edit an ETL config  file 
 
-An example of the ETL config file is available ==>  ```dbGaP2PIC-SURE/et-client/config/etlConfig.conf```
+The ETL config file is available ==>  ```dbGaP2PIC-SURE/et-client/config/etlConfig.conf```. This file is use by the curation process to define input and output files for data and dictionnaries and the study parameters.
+
+### Run the curation script
+
