@@ -43,7 +43,7 @@ Execute the extraction script. This shell script has 3 parameters :
  * ngc file name (including extension)
 
 ```bash
-sh scripts/download-dbgap-files.sh /elt-workdir/data/<tatgetDir> <krt_filename> <key_filename>
+sh scripts/download-dbgap-files.sh /etl-workdir/data/<tatgetDir> <krt_filename> <key_filename>
 ```
 
 ## dbGap files curation
