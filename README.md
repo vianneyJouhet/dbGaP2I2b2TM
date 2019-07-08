@@ -1,5 +1,5 @@
-# dbGaP2PIC-SURE
-Extraction and curation pipeline from dbGap phenotype files to the PIC-SURE plaform
+# dbGaP2I2b2TM
+Extraction and curation pipeline from dbGap phenotype files to the i2b2/tranSMART plaform
 
 ## Pre-requisites
   * Docker 18.09+
@@ -9,7 +9,7 @@ Extraction and curation pipeline from dbGap phenotype files to the PIC-SURE plaf
 
 ### Clone the repository
 ```bash 
-git clone  git clone https://github.com/vianneyJouhet/dbGaP2PIC-SURE.git
+git clone  git clone https://github.com/vianneyJouhet/dbGaP2I2b2TM.git
 ```
 ### Configure your secret file
   * Copy the secrets.template.txt to secrets.txt
@@ -17,7 +17,7 @@ git clone  git clone https://github.com/vianneyJouhet/dbGaP2PIC-SURE.git
 
 
 ### Build and start the docker-compose application
-From dbGaP2PIC-SURE directory ```cd dbGaP2PIC-SURE```
+From dbGaP2I2b2TM directory ```cd dbGaP2I2b2TM```
 ```bash 
 sudo docker-compose build
 ```
@@ -57,7 +57,7 @@ This script will build :
 
 ### Edit an ETL config  file 
 
-The ETL config file is available ==>  ```dbGaP2PIC-SURE/et-client/config/etlConfig.conf```. This file is use by the curation process to define input and output files for data and dictionnaries and the study parameters.
+The ETL config file is available ==>  ```dbGaP2I2b2TM/et-client/config/etlConfig.conf```. This file is use by the curation process to define input and output files for data and dictionnaries and the study parameters.
 
 ### Run the curation script
 
