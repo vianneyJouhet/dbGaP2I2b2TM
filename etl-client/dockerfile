@@ -13,6 +13,6 @@ RUN mv sratoolkit.2.9.6-1-ubuntu64/bin/* /usr/bin
 RUN rm -rf sratoolkit.2.9.6-1-ubuntu64
 
 RUN pip2 install --upgrade pip
-RUN pip2 install html.parser
+RUN pip2 install html.parser requests
 
 COPY ./scripts /etl-workdir/scripts/
