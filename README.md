@@ -65,6 +65,4 @@ The ETL config file is available ==>  ```dbGaP2I2b2TM/et-client/config/etlConfig
 sh /etl-workdir/ETL-dbGaP2PIC-SURE/mainJob/mainJob_run.sh
 ```
 
-### Build and load the data
 
-Follow instruction for the [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-EntityGenerator)
