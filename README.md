@@ -66,5 +66,5 @@ sh /etl-workdir/ETL-dbGaP2PIC-SURE/mainJob/mainJob_run.sh
 ```
 
 ## Use the dbGaP tree builder 
-If you want to build an more meaning full i2b2 ontology you can use the dbGap tree builder. It is integrated within the docker container and the documentation is available at [https://github.com/vianneyJouhet/dbGaP-i2b2Tm-TreeBuilder][https://github.com/vianneyJouhet/dbGaP-i2b2Tm-TreeBuilder]
+If you want to build an more meaning full i2b2 ontology you can use the dbGap tree builder. It is integrated within the docker container and the documentation is available at [https://github.com/vianneyJouhet/dbGaP-i2b2Tm-TreeBuilder](https://github.com/vianneyJouhet/dbGaP-i2b2Tm-TreeBuilder)
 
