@@ -9,11 +9,11 @@ Extraction and curation pipeline from dbGap phenotype files to the i2b2/tranSMAR
 
 ### Clone the repository
 ```bash 
-git clone  git clone https://github.com/vianneyJouhet/dbGaP2I2b2TM.git
+git clone https://github.com/vianneyJouhet/dbGaP2I2b2TM.git
 ```
 ### Configure your secret file
   * Copy the secrets.template.txt to secrets.txt
-  * Edite the file with your credentials
+  * Edit the file with your credentials (not necessary yet)
 
 
 ### Build and start the docker-compose application
