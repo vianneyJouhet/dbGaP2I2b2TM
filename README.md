@@ -31,7 +31,7 @@ only in a secured environment.**
 
 
 ### Run the Extraction script from the etl-client container.
-Copy cart file (.krt) and the key (.ngc) to the targeted directory. This directory must be a sub directoriry of ```dbGaP2PIC-SURE/et-client/data```. dbGaP dictionnaries will be downloaded to a dict sub-dicrectory and dbGaP data files will downloaded to a data sub-directory.
+Copy cart file (.krt) and the key (.ngc) to the targeted directory. This directory must be a sub directoriry of ```dbGaP2I2b2TM/et-client/data```. dbGaP dictionnaries will be downloaded to a dict sub-dicrectory and dbGaP data files will downloaded to a data sub-directory.
 
 Enter into the etl-client container :
 ```bash 
